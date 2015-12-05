@@ -1,0 +1,11 @@
+C:\Users\nvelez\Documents\Visual Studio 2010\Projects\SW\SW\bin\Release\SW.exe.config
+C:\Users\nvelez\Documents\Visual Studio 2010\Projects\SW\SW\bin\Release\SW.exe
+C:\Users\nvelez\Documents\Visual Studio 2010\Projects\SW\SW\bin\Release\SW.XmlSerializers.dll
+C:\Users\nvelez\Documents\Visual Studio 2010\Projects\SW\SW\bin\Release\SW.pdb
+C:\Users\nvelez\Documents\Visual Studio 2010\Projects\SW\SW\obj\x86\Release\SW.ProjectInstaller.resources
+C:\Users\nvelez\Documents\Visual Studio 2010\Projects\SW\SW\obj\x86\Release\SW.SW.resources
+C:\Users\nvelez\Documents\Visual Studio 2010\Projects\SW\SW\obj\x86\Release\SW.csproj.GenerateResource.Cache
+C:\Users\nvelez\Documents\Visual Studio 2010\Projects\SW\SW\obj\x86\Release\SW.exe
+C:\Users\nvelez\Documents\Visual Studio 2010\Projects\SW\SW\obj\x86\Release\SW.pdb
+C:\Users\nvelez\Documents\Visual Studio 2010\Projects\SW\SW\obj\x86\Release\SW.XmlSerializers.dll
+C:\Users\nvelez\Documents\Visual Studio 2010\Projects\SW\SW\obj\x86\Release\SW.csprojResolveAssemblyReference.cache

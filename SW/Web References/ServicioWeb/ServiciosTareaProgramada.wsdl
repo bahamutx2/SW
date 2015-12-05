@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="obtenerTiempoBackup">
+        <s:complexType />
+      </s:element>
+      <s:element name="obtenerTiempoBackupResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="obtenerTiempoBackupResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="obtenerTiempoBackupSoapIn">
+    <wsdl:part name="parameters" element="tns:obtenerTiempoBackup" />
+  </wsdl:message>
+  <wsdl:message name="obtenerTiempoBackupSoapOut">
+    <wsdl:part name="parameters" element="tns:obtenerTiempoBackupResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ServiciosTareaProgramadaSoap">
+    <wsdl:operation name="obtenerTiempoBackup">
+      <wsdl:input message="tns:obtenerTiempoBackupSoapIn" />
+      <wsdl:output message="tns:obtenerTiempoBackupSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ServiciosTareaProgramadaSoap" type="tns:ServiciosTareaProgramadaSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="obtenerTiempoBackup">
+      <soap:operation soapAction="http://tempuri.org/obtenerTiempoBackup" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ServiciosTareaProgramadaSoap12" type="tns:ServiciosTareaProgramadaSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="obtenerTiempoBackup">
+      <soap12:operation soapAction="http://tempuri.org/obtenerTiempoBackup" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ServiciosTareaProgramada">
+    <wsdl:port name="ServiciosTareaProgramadaSoap" binding="tns:ServiciosTareaProgramadaSoap">
+      <soap:address location="http://www.ciudadcontradelincuencia.somee.com/ServiciosTareaProgramada.asmx" />
+    </wsdl:port>
+    <wsdl:port name="ServiciosTareaProgramadaSoap12" binding="tns:ServiciosTareaProgramadaSoap12">
+      <soap12:address location="http://www.ciudadcontradelincuencia.somee.com/ServiciosTareaProgramada.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

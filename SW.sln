@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SW", "SW\SW.csproj", "{90DA6C81-8146-4F25-BB39-2EC06812AE9E}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SWI", "SWI\SWI.vdproj", "{12D92561-A4C8-43C2-8649-339AEE29AB01}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{90DA6C81-8146-4F25-BB39-2EC06812AE9E}.Debug|x86.ActiveCfg = Debug|x86
+		{90DA6C81-8146-4F25-BB39-2EC06812AE9E}.Debug|x86.Build.0 = Debug|x86
+		{90DA6C81-8146-4F25-BB39-2EC06812AE9E}.Release|x86.ActiveCfg = Release|x86
+		{90DA6C81-8146-4F25-BB39-2EC06812AE9E}.Release|x86.Build.0 = Release|x86
+		{12D92561-A4C8-43C2-8649-339AEE29AB01}.Debug|x86.ActiveCfg = Debug
+		{12D92561-A4C8-43C2-8649-339AEE29AB01}.Release|x86.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

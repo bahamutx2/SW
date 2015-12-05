@@ -1,0 +1,9 @@
+c:\users\nvelez\documents\visual studio 2010\Projects\SW\SW\bin\Debug\SW.exe.config
+c:\users\nvelez\documents\visual studio 2010\Projects\SW\SW\bin\Debug\SW.exe
+c:\users\nvelez\documents\visual studio 2010\Projects\SW\SW\bin\Debug\SW.pdb
+c:\users\nvelez\documents\visual studio 2010\Projects\SW\SW\obj\x86\Debug\SW.ProjectInstaller.resources
+c:\users\nvelez\documents\visual studio 2010\Projects\SW\SW\obj\x86\Debug\SW.SW.resources
+c:\users\nvelez\documents\visual studio 2010\Projects\SW\SW\obj\x86\Debug\SW.csproj.GenerateResource.Cache
+c:\users\nvelez\documents\visual studio 2010\Projects\SW\SW\obj\x86\Debug\SW.exe
+c:\users\nvelez\documents\visual studio 2010\Projects\SW\SW\obj\x86\Debug\SW.pdb
+C:\Users\nvelez\Documents\Visual Studio 2010\Projects\SW\SW\obj\x86\Debug\SW.csprojResolveAssemblyReference.cache
